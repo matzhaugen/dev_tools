@@ -19,7 +19,7 @@ alias gcm="git checkout master"
 alias k="kubectl $@"
 alias d="docker $@"
 alias transgit="git stash && git checkout master && git checkout -b $1 && git stash pop"
-
+#
 awscp () {
 	aws s3 cp $1 .
 }
